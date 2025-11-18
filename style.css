@@ -9,7 +9,7 @@ html {
   color: #161716;
   background-color: #F2F2F2;
   line-height: 1.4;
-  font-size: 16pt;
+  font-size: 16px;
 }
 
 header {
@@ -17,22 +17,27 @@ header {
   color: #F2F2F2;
   background-color: #59694F;
   width: 100vw;
-  height: 80px;
   position: fixed;
-  font-size: 20px;
-  padding: 20px;
+  font-size: px;
+  padding: 1rem;
   top: 0px;
   
   
 nav {
 display: flex;
 align-items: center;  
+justify-content: space-between;
+padding: 0 1rem;
+color:  #F2F2F2;
   
 }
+  li {
+    display: inline;
+    float: right;
+  }
   
 nav a {
-display: flex;
-padding: 0 15px;
+padding: 0 .5em;
 text-decoration: none;
 color:  #F2F2F2;
 }
@@ -41,8 +46,14 @@ a:hover {
 color: #8BA888;
 }
 
- .logo {
-    font-size: 28px;
+ .logo a {
+    font-size: 1.2em;
     font-weight: 700;
  
+  }
+
+ img {
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
   }
