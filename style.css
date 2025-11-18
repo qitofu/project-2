@@ -21,10 +21,18 @@ header {
   justify-content: flex-end;
   font-size: 20px;
   padding: 25px;
-
-nav a {
+  
+nav {
 display: flex;
-
+}
+  
+nav a {
+display: inline;
+padding: 0 15px;
+text-decoration: none;
 }
 
+a:hover {
+color: #FFD0A6;
+}
 
