@@ -61,7 +61,7 @@ color:  #BDA28D;
   
  .heroimage {
    width: 100%;
-   max-width: 100%;
+   max-width: 70%;
    object-fit: cover;
    vertical-align: middle;
     
@@ -73,6 +73,7 @@ color:  #BDA28D;
     justify-content: space-around;
     gap: 5rem;
     padding: 0 15px;
+    align-items: center;
     
   }
   .herotext {
