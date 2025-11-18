@@ -36,13 +36,9 @@ padding: 0 15px;
 text-decoration: none;
 color:  #F2F2F2;
 }
-  
-.navbarlinks {
-  justify-content: flex-end;
-}
 
 a:hover {
-color: #FFD0A6;
+color: #8BA888;
 }
 
  .logo {
