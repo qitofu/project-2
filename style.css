@@ -59,14 +59,16 @@ color:  #BDA28D;
  
   }
   
- .heroimage {
-   width: 100%;
-   max-width: 70%;
+ .heroimage{
+   width: 58%;
+   max-width: 100%;
    object-fit: cover;
    vertical-align: middle;
+   display: flex;
     
   }
-  
+
+
   .herocontainer {
     display: flex;
     flex-wrap: wrap;
@@ -78,4 +80,9 @@ color:  #BDA28D;
   }
   .herotext {
     flex: 1;
+    
   }
+
+img {
+   display: flex;
+}
