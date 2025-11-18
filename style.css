@@ -11,17 +11,21 @@ html {
   line-height: 1.4;
   font-size: 16px;
 }
-
+main{
+  margin: 2em;
+  margin-top: 8em;
+  gap: 1.5rem;
+}
 header {
   
   color: #F2F2F2;
   background-color: #59694F;
   width: 100vw;
   position: fixed;
-  font-size: px;
   padding: 1rem;
   top: 0px;
   
+
   
 nav {
 display: flex;
@@ -29,6 +33,7 @@ align-items: center;
 justify-content: space-between;
 padding: 0 1rem;
 color:  #F2F2F2;
+font-size: 1.2em;
   
 }
   li {
@@ -37,23 +42,31 @@ color:  #F2F2F2;
   }
   
 nav a {
+  
 padding: 0 .5em;
 text-decoration: none;
 color:  #F2F2F2;
 }
 
 a:hover {
-color: #8BA888;
+color:  #BDA28D;
 }
 
  .logo a {
-    font-size: 1.2em;
+    font-size: 1.4em;
     font-weight: 700;
  
   }
 
+  .herosection {
+    display: flex;
+    max-width:980px;
+  margin:auto;
+  align-items:center;
+  }
  img {
     max-width: 100%;
     height: auto;
     aspect-ratio: 16 / 9;
   }
+  
