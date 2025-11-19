@@ -13,9 +13,15 @@ html {
 }
 
 main{
-  margin: 2em;
+  margin: 4em;
   margin-top: 8em;
   gap: 1.5rem;
+}
+
+body {
+  width: 100vw;
+  min-width: 50vw;
+  margin: auto;
 }
 
 header { 
@@ -56,11 +62,12 @@ color:  #BDA28D;
  .logo a {
     font-size: 1.4em;
     font-weight: 700;
- 
+   font-family: "lustria", serif;
+   
   }
   
  .heroimage{
-   width: 80%%;
+   width: 65%;
    max-width: 100%;
    object-fit: cover;
    vertical-align: middle;
@@ -73,8 +80,7 @@ color:  #BDA28D;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    gap: 5rem;
-    padding: 0 15px;
+    gap: 1rem;
     align-items: center;
     
   }
@@ -98,8 +104,7 @@ color:  #BDA28D;
 .contentall {
   margin-top: 3em;
   display: flex;
-  gap: 1.2em;
-  flex-wrap: wrap;
+  gap: 1.5em;
   
   
 }
@@ -108,17 +113,37 @@ color:  #BDA28D;
 width:
   
 }
+h1 {
+  font-size: 2.5em;
+  font-family: "lustria", serif;
+  font-weight: 700;
+   line-height: 1.5em;
+  margin-bottom: .7em;
+}
+
+h2 {
+line-height: 1.2em;
+margin-top: 5em;
+  
+}
+.subheading {
+  font-size: 1.3em;
+}
 
 footer {
   color: #F2F2F2;
   background-color: #59694F;
   width: 100%;
 	height: 18em;;
-	 padding: 3rem;
+	padding: 2em 4rem;
 	display: flex;
-	justify-content: space-between;
-  
+ 
+}
 
+.footercontent {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
 }
 
 .sources {
@@ -134,6 +159,7 @@ footer a {
 text-decoration: none;
 color:  #F2F2F2;
   
+  
 }
 
 .copyright {
@@ -144,7 +170,7 @@ color:  #F2F2F2;
 @media only screen and (max-width: 480px) {
   html {
     main{
-  margin: 2em;
+  margin: 1em;
   margin-top: 6em;
 }
   body {
@@ -152,12 +178,28 @@ color:  #F2F2F2;
     min-width: 50vw;
   }
     
-    img {
-      width: 100%;
-      
+    .heroimage{
+   width: 100%;
+   max-width: 100%;
+   object-fit: cover;
+   vertical-align: middle;
     }
     
     nav {
       font-size: .9em;
     }
+    
+    .contentall {
+  margin-top: 3em;
+  display: flex;
+  gap: 1.2em;
+  flex-wrap: wrap;
   
+}
+    
+   .herotext {
+    flex: 1;
+    font-size: .9em;
+    
+  }
+    
