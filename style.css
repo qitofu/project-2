@@ -87,6 +87,7 @@ color:  #BDA28D;
   max-width: 100%;
   aspect-ratio: 9 / 16; 
   object-fit: cover;
+
 }
 
 .abouttext {
@@ -98,10 +99,11 @@ color:  #BDA28D;
   margin-top: 3em;
   display: flex;
   gap: 1.2em;
-  flex-wrap: wrap;
+  
+  
 }
 
 .content {
-  width: 32%;
+width:
   
 }
