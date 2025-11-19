@@ -83,6 +83,25 @@ color:  #BDA28D;
     
   }
 
-img {
-   display: flex;
+.aboutsection img {
+  max-width: 100%;
+  aspect-ratio: 9 / 16; 
+  object-fit: cover;
+}
+
+.abouttext {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.contentall {
+  margin-top: 3em;
+  display: flex;
+  gap: 1.2em;
+  flex-wrap: wrap;
+}
+
+.content {
+  width: 32%;
+  
 }
