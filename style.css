@@ -140,3 +140,24 @@ color:  #F2F2F2;
   text-align: right;
 }
 
+
+@media only screen and (max-width: 480px) {
+  html {
+    main{
+  margin: 2em;
+  margin-top: 6em;
+}
+  body {
+    width: 100vw;
+    min-width: 50vw;
+  }
+    
+    img {
+      width: 100%;
+      
+    }
+    
+    nav {
+      font-size: .9em;
+    }
+  
