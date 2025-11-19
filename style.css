@@ -67,7 +67,7 @@ color:  #BDA28D;
   }
   
  .heroimage{
-   width: 65%;
+   width: 75%;
    max-width: 100%;
    object-fit: cover;
    vertical-align: middle;
@@ -80,7 +80,6 @@ color:  #BDA28D;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    gap: 1rem;
     align-items: center;
     
   }
