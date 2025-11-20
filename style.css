@@ -130,33 +130,7 @@ background-repeat: no-repeat;
   font-size: 1.1em;
   
 }
-.aboutsection2 {
-margin-top: 3em;
-display: flex;
-gap: 1.2em;
-justify-content: center;
-	
-}
-.aboutcontent2 {
-width: 80%
-}
 
-.aboutsection2 img {
-  max-width: 100%;
-  aspect-ratio: 9 / 16; 
-  object-fit: cover;
-  
-
-}
-
-.text3 {
-  margin-left: 6em;
-  padding: 1em;
-}
-.text4 {
-  margin-left: 4em;
-  margin-right: 6em;
-}
 .matchatext {
   text-align: center;
   font-size: 1.2em;
