@@ -92,7 +92,7 @@ color:  #BDA28D;
 .aboutsection1 {
 display: grid; 
 grid-template-columns: repeat(2, 50vw);
-grid-template-rows: 100vh;
+grid-template-rows: 90vh;
 }
 
 
@@ -134,11 +134,11 @@ background-repeat: no-repeat;
 .matchatext {
   text-align: center;
   font-size: 1.2em;
-  padding-bottom: 10em;
+  padding-bottom: 6em;
 }
   
 h1 {
-  font-size: 2.5em;
+  font-size: 2.3em;
   font-family: "lustria", serif;
   font-weight: 700;
    line-height: 1.5em;
@@ -151,7 +151,7 @@ margin-top: 5em;
   
 }
 .subheading {
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 
 footer {
@@ -161,6 +161,7 @@ footer {
 	height: 18em;
 	padding: 2em 4rem;
 	display: flex;
+  margin-top: 5em;
  
 }
 
@@ -228,7 +229,7 @@ color:  #F2F2F2;
     
    .herotext {
     flex: 1;
-    font-size: .9em;
+    font-size: .8em;
      margin-bottom: 6em;
     
   }
@@ -242,7 +243,21 @@ background-repeat: no-repeat;
 
 .image2 {
 background: URL("https://mizubatea.com/cdn/shop/articles/IMG_5943_15f0216d-5df0-4639-9277-f3862467aff7.jpg?v=1759353624");
-background-size: 100vw;
+background-size: 50vw;
+background-repeat: no-repeat;
+ 
+}
+  
+  .image3 {
+background: URL("https://matcha.com/cdn/shop/articles/shutterstock_2377056479.jpg?v=1717630434");
+background-size: 50vw;
+background-repeat: no-repeat;
+ 
+}
+
+.image4 {
+background: URL("https://img.freepik.com/free-photo/high-angle-man-with-matcha-tea_23-2150163555.jpg?semt=ais_hybrid&w=740&q=80");
+background-size: 50vw;
 background-repeat: no-repeat;
  
 }
@@ -260,5 +275,15 @@ grid-template-rows: 20vh;
   max-width: 100%;
   aspect-ratio: 9 / 16; 
   object-fit: cover;
+}
+  
+  .footercontent {
+    font-size: .8em;
+}
+
+  .matchatext {
+  text-align: center;
+  font-size: .8em;
+  padding-bottom: 4em;
 }
 }
