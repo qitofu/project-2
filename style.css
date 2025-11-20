@@ -110,6 +110,20 @@ background-repeat: no-repeat;
  
 }
 
+.image3 {
+background: URL("https://matcha.com/cdn/shop/articles/shutterstock_2377056479.jpg?v=1717630434");
+background-size: 50vw;
+background-repeat: no-repeat;
+ 
+}
+
+.image4 {
+background: URL("https://img.freepik.com/free-photo/high-angle-man-with-matcha-tea_23-2150163555.jpg?semt=ais_hybrid&w=740&q=80");
+background-size: 50vw;
+background-repeat: no-repeat;
+ 
+}
+
 
 .aboutcontent1 p {
   padding: 12em 5em;
