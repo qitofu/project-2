@@ -88,7 +88,25 @@ color:  #BDA28D;
     
   }
 
-.aboutsection img {
+.aboutsection1 {
+display: grid; 
+grid-template-columns: repeat(2, 50vw);
+grid-template-rows: 50vh;
+}
+
+.aboutcontent1 {
+height: 4em;
+padding: 3em;
+}
+
+.image1 {
+background: URL("https://matcha.com/cdn/shop/products/MatchaKari-11.04.20-0025_1800x1800.jpg?v=1623387595")
+background-size: cover;
+background-repeat: no-repeat;
+background-size:
+}
+
+.aboutsection2 img {
   max-width: 100%;
   aspect-ratio: 9 / 16; 
   object-fit: cover;
