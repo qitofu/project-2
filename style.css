@@ -264,7 +264,7 @@ background-repeat: no-repeat;
  .aboutsection1 {
 display: grid; 
 grid-template-columns: repeat(2, 50vw);
-grid-template-rows: 20vh;
+grid-template-rows: 30vh;
 }   
  .aboutcontent1 p {
   padding: 0em 1em;
