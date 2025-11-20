@@ -123,12 +123,12 @@ background-repeat: no-repeat;
 
 }
 
-.abouttext {
+.matchatext {
   text-align: center;
   font-size: 1.2em;
 }
 
-.contentall {
+.matchasection {
   margin-top: 3em;
   display: flex;
   gap: 1.2em;
