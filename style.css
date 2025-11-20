@@ -114,25 +114,30 @@ background-repeat: no-repeat;
 .aboutcontent1 p {
   padding: 12em 5em;
   font-size: 1.1em;
+  
 }
-
+.aboutcontent2 {
+  flex-wrap: wrap;
+  
+}
 .aboutsection2 img {
   max-width: 100%;
   aspect-ratio: 9 / 16; 
   object-fit: cover;
+  
 
 }
 
 .matchatext {
   text-align: center;
   font-size: 1.2em;
+  padding-bottom: 10em;
 }
 
-.matchasection {
+.aboutcontent2 {
   margin-top: 3em;
   display: flex;
   gap: 1.2em;
-  
   
 }
 
