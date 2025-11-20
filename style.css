@@ -116,9 +116,17 @@ background-repeat: no-repeat;
   font-size: 1.1em;
   
 }
+.aboutsection2 {
+margin-top: 3em;
+display: flex;
+gap: 1.2em;
+justify-content: center;
+	
+}
 .aboutcontent2 {
-  flex-wrap: wrap;
-  
+width: 80%
+}
+
 }
 .aboutsection2 img {
   max-width: 100%;
@@ -134,12 +142,7 @@ background-repeat: no-repeat;
   padding-bottom: 10em;
 }
 
-.aboutcontent2 {
-  margin-top: 3em;
-  display: flex;
-  gap: 1.2em;
-  
-}
+
 
 .content {
 width:
